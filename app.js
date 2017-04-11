@@ -3,13 +3,13 @@ var connection = mysql.createConnection({
     host: '127.0.0.1',
     port:'3306',
     user: 'root',
-    password: 'chen8888',
+    password: '',
     database: 'telegram'
 });
 connection.connect();
 
 var TelegramBot = require('node-telegram-bot-api');
-var token = '298404287:AAEn1SNVbTp6HtvcqtltPHIoXUzWJHsmeIE';
+var token = '';
 var bot = new TelegramBot(token, {polling: true});
 
 bot.onText(/\/start/, message => {
