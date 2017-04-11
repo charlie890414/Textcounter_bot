@@ -1,0 +1,15 @@
+{
+  "name": "textcounter_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.27.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "charlie890414",
+  "license": "ISC"
+}
